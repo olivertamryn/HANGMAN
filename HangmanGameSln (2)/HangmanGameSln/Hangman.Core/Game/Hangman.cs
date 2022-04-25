@@ -25,7 +25,7 @@ namespace Hangman.Core.Game
             wordlistInt = random.Next(0, wordlist.Length);
             chosenword = wordlist[wordlistInt];
 
-            for(int i = 0; i < chosenword.Length; i++)
+            for (int i = 0; i < chosenword.Length; i++)
             {
                 dashWord += "-";
             }
@@ -38,7 +38,7 @@ namespace Hangman.Core.Game
             wordProgress = dashWord.ToCharArray();
 
             //if (input.Length > 0)
-            for (int i=0; i < chosenword.Length;i++)  
+            for (int i = 0; i < chosenword.Length; i++)
             {
                 if (chosenword[i] == charguess)
                 {
@@ -52,9 +52,9 @@ namespace Hangman.Core.Game
 
         public void Run()
         {
-             _numberoflives = 6;
+            _numberoflives = 6;
 
-            while(true)
+            while (true)
             {
                 _renderer.Render(5, 5, _numberoflives);
 
@@ -79,12 +79,30 @@ namespace Hangman.Core.Game
                 {
                     Console.WriteLine("The letter {0} you guess is contained in the chosen word", guess);
                 }
-                else if(!chosenword.Contains(guess))
+                else if (!chosenword.Contains(guess))
                 {
                     Console.WriteLine("The letter {0} is not contained in the word ", guess);
+
                     _numberoflives--;
+
+                    
                 }
 
+
+                guess = new string(wordProgress);
+                if (dashWord == chosenword)
+                {
+                    Console.WriteLine(" You Have Won!");
+                }
+
+                if (_numberoflives == 0)
+                {
+                    Console.WriteLine(" You Have Lost! The word is {0}", chosenword);
+                }
+
+
+                // {
+                //Console.WriteLine(" You Have Lost! The word is {0}", chosenword);
 
 
 
@@ -98,8 +116,9 @@ namespace Hangman.Core.Game
                 Console.Write("What is your next guess: ");
                 var nextGuess = Console.ReadLine();
                 */
-            }
-        }
 
+            }
+
+        }
     }
 }
