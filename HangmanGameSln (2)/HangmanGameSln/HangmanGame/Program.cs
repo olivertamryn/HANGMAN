@@ -9,19 +9,22 @@ namespace HangmanGameConsole
         {
             ConsoleColor oldColor = Console.ForegroundColor;
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.SetCursorPosition(10, 2);
-            Console.Write("Welcome to Hangman!!");
+             Console.ForegroundColor = ConsoleColor.Green;
+             Console.SetCursorPosition(10, 2);
+             Console.Write("Welcome to Hangman!!");
 
-            var hangman = new HangmanGame();
-            hangman.Run();
+             var hangman = new HangmanGame();
+             hangman.Run();
 
-            Console.ForegroundColor = oldColor;
-
-
-            Console.SetCursorPosition(20, 25);
-            Console.WriteLine("Thank you for playing");
-            Console.ReadLine();
+             Console.ForegroundColor = oldColor;
+             
+              Console.WriteLine("Thank you for playing");
+              Console.ReadLine();
+              
+         }
         }
-    }
-}
+ }
+
+
+
+

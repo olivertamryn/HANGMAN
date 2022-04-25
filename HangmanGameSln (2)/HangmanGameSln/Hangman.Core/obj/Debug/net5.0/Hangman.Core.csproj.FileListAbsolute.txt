@@ -1,0 +1,14 @@
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\bin\Debug\net5.0\Hangman.Core.deps.json
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\bin\Debug\net5.0\Hangman.Core.dll
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\bin\Debug\net5.0\Hangman.Core.pdb
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\bin\Debug\net5.0\HangmanRenderer.dll
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.csproj.AssemblyReference.cache
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.AssemblyInfoInputs.cache
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.AssemblyInfo.cs
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.csproj.CoreCompileInputs.cache
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.csproj.CopyComplete
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.dll
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\refint\Hangman.Core.dll
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\Hangman.Core.pdb
+C:\exercises\repos\HANGMAN\HangmanGameSln (2)\HangmanGameSln\Hangman.Core\obj\Debug\net5.0\ref\Hangman.Core.dll
